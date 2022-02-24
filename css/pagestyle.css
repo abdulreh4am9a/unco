@@ -1,0 +1,68 @@
+:root{
+    --bg-color-body: #FFEDD3;
+    --bg-color-head: #EDC7B7;
+    --color-h1: #123C69;
+    --color-h2: #AC3B61;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: var(--bg-color-body);
+}
+.card-header{
+    background-color: var(--bg-color-head);
+    justify-content: center;
+    border: var(--color-h1) double 1px;
+    border-collapse: collapse;
+}
+.card-header-pills a{
+    color: var(--color-h1);
+    font-size: 18px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.card-header-pills a:hover{
+    color: var(--color-h2);
+}
+.card-body{
+    background-color: var(--bg-color-body);
+    border: var(--color-h1) double 1px;
+}
+.card-title{
+    font-weight: bold;
+    color: var(--color-h1);
+    font-variant: small-caps;
+}
+.card-text{
+    color: var(--color-h2);
+}
+.btn{
+    background-color: var(--color-h1);
+    border:0;
+}
+.btn:hover{
+    background-color: var(--color-h2);
+    border:0;
+}
+.rounded{
+    width: 200px;
+    border-radius: 100px !important;
+}
+h6{
+    color: var(--color-h1);
+}
+.no-border{
+    border:0;
+}
+.card-body{
+    border:0;
+}
+.format{
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+.list-group-item{
+    background-color: var(--bg-color-body);
+    color: var(--color-h2);
+}
